@@ -9,7 +9,7 @@ describe('Protractor', function() {
         expect(browser.driver.findElement(by.id('resultado')).getText()).toEqual('O resultado é 200,00.');
     });
 
-    it('deve retornar 800,00 quando for passado o valor 200', function() {
+    it('deve retornar 800,00 quando for passado o valor 1200', function() {
         browser.driver.get('http://localhost:3000/subtrair');
         browser.driver.findElement(by.id('numero1')).sendKeys(1000);
         browser.driver.findElement(by.id('numero2')).sendKeys(200);
