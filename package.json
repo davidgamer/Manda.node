@@ -1,11 +1,11 @@
 {
-  "name": "node-app",
+  "name": "manda-app",
   "version": "1.0.0",
-  "description": "Aplicação",
+  "description": "Aplicação Node JS ",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidgamer/Manda.node.git"
+    "url": "https://github.com/davidgamer/projetopi.git"
   },
   "scripts": {
     "start": "node server.js",
@@ -14,7 +14,7 @@
   "engines": {
     "node": "0.12.2"
   },
-  "homepage": "https://github.com/davidgamer/Manda.node",
+  "homepage": "https://github.com/davidgamer/projetopi",
   "dependencies": {
     "accounting": "^0.4.1",
     "body-parser": "^1.12.4",
@@ -30,6 +30,6 @@
     "protractor": "^2.1.0",
     "should": "^6.0.3"
   },
-  "author": "David Henrique <11025717>",
+  "author": "david silva",
   "license": "MIT"
 }

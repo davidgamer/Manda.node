@@ -1,4 +1,6 @@
-# Aplicaçao no heroku
+# Biblioteca
+Aplicação em Node.js
+Testando 4º 01/07/2015
 
 ### Aplicação no Heroku
-https://trashsup.herokuapp.com/
+https://lucas-node.herokuapp.com/

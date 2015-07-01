@@ -28,7 +28,7 @@ module.exports = function() {
 				},
 				
 				subtrair: function(numero1, numero2) {
-					return numero1-numero2;
+					return numero1 - numero2;
 				},
 				
 				multiplicar: function(numero1, numero2) {
@@ -37,244 +37,374 @@ module.exports = function() {
 				
 				dividir: function(numero1, numero2) {
 					return numero1 / numero2;
-				}
+				},
+
+                multaAcessorios: function(numero1) {
+                    return numero1 * 1;
+                },
+
+               multaMidia : function(numero1) {
+                    return numero1 * 1;
+                },
+
+                multaLivro: function(numero1) {
+                    return numero1 * 1;
+                },
+
+                SomarMultaboleto: function(numero1) {
+
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    resultado += 1;
+                    return resultado;
+                },
+
+                multacartao: function(numero1) {
+                    return numero1 * 7;
+                },
+
+                SMultacartaoApos45dias: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    resultado += 3;
+                    return resultado;
+                },
+
+                multamanga: function(numero1) {
+                    return numero1 * 2;
+                },
+
+                Somarmultahqapos40dias: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    return resultado;
+                },
+
+                multahq: function(numero1) {
+                    return numero1 * 5;
+                },
+
+                SomarMangaeHQApos10Dias: function(numero1) {
+                   resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    return resultado;
+                },
+
+  somarMultalivroAcessorio10dias: function(numero1) {
+                   resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    return resultado;
+                },
+              Somamultamangaapos40dias: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    return resultado;
+                },
+
+                SomamultaAcessorios40dias: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    return resultado;
+                },
+
+
+
+
+                SomarMangaeHQApos10Dias: function(numero1) {
+                    resultado = Number(0);
+                    resultado += numero1;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 2;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    resultado += 5;
+                    return resultado;
+                }
+
+
 			},
-             somarNumerosCom20: function(numero1, numero2){
-                    resultado = Number(0);
-                    resultado += numero1;
-                    resultado += numero2;
-                    resultado += 20;
-                    return resultado;
-                },
-                somarGastos: function(numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                      numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                      numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    return gastos;
-                },
-                somarGastos2: function(numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                      numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                      numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    return gastos;
-                },
-                somarGastos3: function(numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                      numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                      numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    return gastos;
-                },
-                salarioRestante: function(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                      numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                      numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    Novosalario = salario - gastos;
-                    return Novosalario;
-                },
-                salarioRestante2: function(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                          numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                          numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    Novosalario = salario - gastos;
-                    return Novosalario;
-                },
-                salarioRestante3: function(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                          numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                          numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    Novosalario = salario - gastos;
-                    return Novosalario;
-                },
-                porcentagemDeGastos: function(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                                          numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                                          numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24)
-                {
-                    gastos = Number(0);
-                    gastos +=numero1;
-                    gastos +=numero2;
-                    gastos +=numero3;
-                    gastos +=numero4;
-                    gastos +=numero5;
-                    gastos +=numero6;
-                    gastos +=numero7;
-                    gastos +=numero8;
-                    gastos +=numero9;
-                    gastos +=numero10;
-                    gastos +=numero11;
-                    gastos +=numero12;
-                    gastos +=numero13;
-                    gastos +=numero14;
-                    gastos +=numero15;
-                    gastos +=numero16;
-                    gastos +=numero17;
-                    gastos +=numero18;
-                    gastos +=numero19;
-                    gastos +=numero20;
-                    gastos +=numero21;
-                    gastos +=numero22;
-                    gastos +=numero23;
-                    gastos +=numero24;
-                    porcentagem = (gastos*100)/salario;
-                    resuldado = porcentagem;
-                    return porcentagem;
-                },
-                somarNumerosMais100: function(numero1, numero2) {
-                    resultado = Number(0);
-                    resultado += numero1;
-                    resultado += numero2;
-                    resultado += 100;
-                    return resultado;
-                },
 			
 			validaParametro: function(parametro) {
 				if(parametro && parametro !== '') {

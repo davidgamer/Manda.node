@@ -42,19 +42,9 @@ describe('Calculadora', function() {
 				resultado.should.be.a.Number;
 				resultado.should.be.equal(-5);
 			});
-
 		});
 		
 		describe('Subtrair', function() {
-			it('Deveria retornar 2 quando for passado 2 e 0.', function() {
-				var numero1 = 2;
-				var numero2 = 0;
-				
-				var resultado = controller.utils.calculos.subtrair(numero1, numero2);
-				
-				resultado.should.be.a.Number;
-				resultado.should.be.equal(2);
-			});
 			it('Deveria retornar 1 quando for passado 4 e 3.', function() {
 				var numero1 = 4;
 				var numero2 = 3;
@@ -66,7 +56,168 @@ describe('Calculadora', function() {
 			});
 			
 		});
-		
+
+		 describe('multaMidia', function() {
+            it('Deveria retornar 6 quando for passado 6.', function() {
+                var numero1 = 6;
+
+                var resultado = controller.utils.calculos.multaMidia(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(6);
+            });
+
+        });
+
+		  describe('multaAcessorios', function() {
+            it('Deveria retornar 6 quando for passado 6.', function() {
+                var numero1 = 6;
+
+                var resultado = controller.utils.calculos.multaAcessorios(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(6);
+            });
+
+        });
+
+
+        describe('multaLivro', function() {
+            it('Deveria retornar 6 quando for passado 6.', function() {
+                var numero1 = 6;
+
+                var resultado = controller.utils.calculos.multaLivro(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(6);
+            });
+
+        });
+
+        describe('multacartao', function() {
+            it('Deveria retornar 9 quando for passado 3.', function() {
+                var numero1 = 7;
+
+                var resultado = controller.utils.calculos.multacartao(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(49);
+            });
+
+        });
+
+        describe('SMultacartaoApos45dias', function() {
+            it('Deveria retornar 135 quando for passado 3.', function() {
+                var numero1 = 3;
+
+                var resultado = controller.utils.calculos.SMultacartaoApos45dias(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(135);
+            });
+
+        });
+
+        describe('multamanga', function() {
+            it('Deveria retornar 8 quando for passado 4.', function() {
+                var numero1 = 4;
+
+                var resultado = controller.utils.calculos.multamanga(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(8);
+            });
+
+        });
+        describe('multahq', function() {
+            it('Deveria retornar 15 quando for passado 3.', function() {
+                var numero1 = 3;
+
+
+                var resultado = controller.utils.calculos.multahq(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(15);
+            });
+
+        });
+
+        describe('SomarMultaboleto', function() {
+            it('Deveria retornar 30 quando for passado 1.', function() {
+                var numero1 = 1;
+
+                var resultado = controller.utils.calculos.SomarMultaboleto(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(30);
+            });
+
+        });
+
+        describe('Somarmultahqapos40dias', function() {
+            it('Deveria retornar 83 quando for passado 5.', function() {
+                var numero1 = 5;
+
+                var resultado = controller.utils.calculos.Somarmultahqapos40dias(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(83);
+            });
+
+        });
+
+        describe('SomarMangaeHQApos10Dias', function() {
+            it('Deveria retornar 70 quando for passado 10.', function() {
+                var numero1 = 10;
+
+                var resultado = controller.utils.calculos.SomarMangaeHQApos10Dias(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(78);
+            });
+
+        });
+
+
+
+ describe('somarMultalivroAcessorio10dias', function() {
+            it('Deveria retornar 70 quando for passado 10.', function() {
+                var numero1 = 2;
+
+                var resultado = controller.utils.calculos.somarMultalivroAcessorio10dias(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(202);
+            });
+
+        });
+
+
+
+        describe('Somamultamangaapos40dias', function() {
+            it('Deveria retornar 80 quando for passado 2.', function() {
+                var numero1 = 2;
+
+                var resultado = controller.utils.calculos.Somamultamangaapos40dias(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(80);
+            });
+
+        });
+
+         describe('SomamultaAcessorios40dias', function() {
+            it('Deveria retornar 80 quando for passado 2.', function() {
+                var numero1 = 2;
+
+                var resultado = controller.utils.calculos.SomamultaAcessorios40dias(numero1);
+
+                resultado.should.be.a.Number;
+                resultado.should.be.equal(80);
+            });
+
+        });
+
 		describe('Multiplicar', function() {
 			it('Deveria retornar 4 quando for passado 1 e 4.', function() {
 				var numero1 = 1;
@@ -108,7 +259,7 @@ describe('Calculadora', function() {
 				resultado.should.be.equal(4);
 			});
 		});
-		
+
 		describe('Dividir', function() {
 			it('Deveria retornar 0.25 quando for passado 1 e 4.', function() {
 				var numero1 = 1;
@@ -145,13 +296,13 @@ describe('Calculadora', function() {
 				var numero2 = -4;
 				
 				var resultado = controller.utils.calculos.dividir(numero1, numero2);
-				
+
 				resultado.should.be.a.Number;
 				resultado.should.be.equal(0.25);
 			});
 		});
 	});
-	
+
 	describe('Testa se a função calcular funciona.', function() {
 		describe('Somar', function() {
 			it('Deveria retornar 5 quando somar 1 e 4.', function() {
@@ -224,286 +375,4 @@ describe('Calculadora', function() {
 			});
 		});
 	});
-    describe('SomarGastos', function() {
-        it("Soma os gastos feito por uma pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-
-            var resultado = controller.utils.calculos.somarGastos(numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(gastoTotal);
-        });
-    });
-    describe('SomarGastos2', function() {
-        it("Soma os gastos feito por uma pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-
-            var resultado = controller.utils.calculos.somarGastos2(numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(gastoTotal);
-        });
-    });
-    describe('SomarGastos3', function() {
-        it("Soma os gastos feito por uma pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-
-            var resultado = controller.utils.calculos.somarGastos3(numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(gastoTotal);
-        });
-    });
-    describe('SalarioRestante', function() {
-        it("Subtrair os gastos no salario da pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-            var salario = 100;
-            var novoSalario = salario - gastoTotal;
-
-            var resultado = controller.utils.calculos.salarioRestante(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(novoSalario);
-        });
-    });
-    describe('SalarioRestante2', function() {
-        it("Subtrair os gastos no salario da pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-            var salario = 100;
-            var novoSalario = salario - gastoTotal;
-
-            var resultado = controller.utils.calculos.salarioRestante2(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(novoSalario);
-        });
-    });
-    describe('SalarioRestante3', function() {
-        it("Subtrair os gastos no salario da pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-            var salario = 100;
-            var novoSalario = salario - gastoTotal;
-
-            var resultado = controller.utils.calculos.salarioRestante3(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(novoSalario);
-        });
-    });
-    describe('PorcentagemDeGastos', function() {
-        it("Quantidade de gastos em porcentagem por uma pessoa", function() {
-            var numero1 = 1;
-            var numero2 = 4;
-            var numero3 = 1;
-            var numero4 = 4;
-            var numero5 = 1;
-            var numero6 = 4;
-            var numero7 = 1;
-            var numero8 = 4;
-            var numero9 = 1;
-            var numero10 = 4;
-            var numero11 = 1;
-            var numero12 = 4;
-            var numero13 = 1;
-            var numero14 = 4;
-            var numero15 = 1;
-            var numero16 = 4;
-            var numero17 = 1;
-            var numero18 = 4;
-            var numero19 = 1;
-            var numero20 = 4;
-            var numero21 = 1;
-            var numero22 = 4;
-            var numero23 = 1;
-            var numero24 = 4;
-            var gastoTotal = 60;
-            var salario = 100;
-            var porcentagem =  (gastoTotal*100)/salario;
-
-            var resultado = controller.utils.calculos.porcentagemDeGastos(salario,numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,
-                numero9,numero10,numero11,numero12,numero13,numero14,numero15,numero16,
-                numero17,numero18,numero19,numero20,numero21,numero22,numero23,numero24);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(porcentagem);
-        });
-    });
-    describe('SomarNumerosMais100', function() {
-        it('Deveria retornar 105 quando for passado 1 e 4.', function() {
-            var numero1 = 1;
-            var numero2 = 4;
-
-            var resultado = controller.utils.calculos.somarNumerosMais100(numero1, numero2);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(105);
-        });
-    });
-    describe('SomarNumerosCom20', function() {
-        it('Deveria retornar 40 quando for passado 10 e 10.', function() {
-            var numero1 = 10;
-            var numero2 = 10;
-
-            var resultado = controller.utils.calculos.somarNumerosCom20(numero1, numero2);
-
-            resultado.should.be.a.Number;
-            resultado.should.be.equal(40);
-        });
-    });
 });
