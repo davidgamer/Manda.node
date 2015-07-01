@@ -1,5 +1,4 @@
-# node-app
-Aplicação em Node.js para a aula de CI
+# Aplicaçao no heroku
 
 ### Aplicação no Heroku
-https://still-scrubland-5274.herokuapp.com/
+https://trashsup.herokuapp.com/
